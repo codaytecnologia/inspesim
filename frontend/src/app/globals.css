@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Tema shadcn/ui na paleta do INSPESIM (HSL) */
+    --background: 0 0% 100%;
+    --foreground: 148 22% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 148 22% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 148 22% 12%;
+    --primary: 147 81% 35%;          /* #11A352 verde */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 150 34% 94%;        /* #EAF5EF verde claro */
+    --secondary-foreground: 147 82% 27%;
+    --muted: 150 20% 96%;
+    --muted-foreground: 155 10% 42%;
+    --accent: 43 96% 53%;            /* #FABA15 amarelo */
+    --accent-foreground: 148 22% 12%;
+    --destructive: 6 63% 46%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 150 20% 90%;
+    --input: 150 20% 90%;
+    --ring: 147 81% 35%;
+    --radius: 0.75rem;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: #17241d;
+  background: #f2f6f3;
+}

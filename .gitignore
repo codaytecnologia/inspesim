@@ -1,0 +1,17 @@
+# dependências
+node_modules/
+
+# build / cache
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+
+# ambiente / segredos
+.env
+.env*.local
+
+# sistema
+.DS_Store
+Thumbs.db
